@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C34A57B2C3E33B300BDDB89 /* Private_Aero_CRMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C34A57A2C3E33B300BDDB89 /* Private_Aero_CRMApp.swift */; };
+		3C34A57D2C3E33B300BDDB89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C34A57C2C3E33B300BDDB89 /* ContentView.swift */; };
+		3C34A57F2C3E33B300BDDB89 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C34A57E2C3E33B300BDDB89 /* Item.swift */; };
+		3C34A5812C3E33B900BDDB89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C34A5802C3E33B900BDDB89 /* Assets.xcassets */; };
+		3C34A5852C3E33B900BDDB89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C34A5842C3E33B900BDDB89 /* Preview Assets.xcassets */; };
+		3C34A58F2C3E33B900BDDB89 /* Private_Aero_CRMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C34A58E2C3E33B900BDDB89 /* Private_Aero_CRMTests.swift */; };
+		3C34A5992C3E33B900BDDB89 /* Private_Aero_CRMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C34A5982C3E33B900BDDB89 /* Private_Aero_CRMUITests.swift */; };
+		3C34A59B2C3E33B900BDDB89 /* Private_Aero_CRMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C34A59A2C3E33B900BDDB89 /* Private_Aero_CRMUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C34A58B2C3E33B900BDDB89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C34A56F2C3E33B300BDDB89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C34A5762C3E33B300BDDB89;
+			remoteInfo = "Private Aero CRM";
+		};
+		3C34A5952C3E33B900BDDB89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C34A56F2C3E33B300BDDB89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C34A5762C3E33B300BDDB89;
+			remoteInfo = "Private Aero CRM";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C34A5772C3E33B300BDDB89 /* Private Aero CRM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Private Aero CRM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C34A57A2C3E33B300BDDB89 /* Private_Aero_CRMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Private_Aero_CRMApp.swift; sourceTree = "<group>"; };
+		3C34A57C2C3E33B300BDDB89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3C34A57E2C3E33B300BDDB89 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		3C34A5802C3E33B900BDDB89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C34A5822C3E33B900BDDB89 /* Private_Aero_CRM.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Private_Aero_CRM.entitlements; sourceTree = "<group>"; };
+		3C34A5842C3E33B900BDDB89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C34A58A2C3E33B900BDDB89 /* Private Aero CRMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Private Aero CRMTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C34A58E2C3E33B900BDDB89 /* Private_Aero_CRMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Private_Aero_CRMTests.swift; sourceTree = "<group>"; };
+		3C34A5942C3E33B900BDDB89 /* Private Aero CRMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Private Aero CRMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C34A5982C3E33B900BDDB89 /* Private_Aero_CRMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Private_Aero_CRMUITests.swift; sourceTree = "<group>"; };
+		3C34A59A2C3E33B900BDDB89 /* Private_Aero_CRMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Private_Aero_CRMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C34A5742C3E33B300BDDB89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C34A5872C3E33B900BDDB89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C34A5912C3E33B900BDDB89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C34A56E2C3E33B300BDDB89 = {
+			isa = PBXGroup;
+			children = (
+				3C34A5792C3E33B300BDDB89 /* Private Aero CRM */,
+				3C34A58D2C3E33B900BDDB89 /* Private Aero CRMTests */,
+				3C34A5972C3E33B900BDDB89 /* Private Aero CRMUITests */,
+				3C34A5782C3E33B300BDDB89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C34A5782C3E33B300BDDB89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C34A5772C3E33B300BDDB89 /* Private Aero CRM.app */,
+				3C34A58A2C3E33B900BDDB89 /* Private Aero CRMTests.xctest */,
+				3C34A5942C3E33B900BDDB89 /* Private Aero CRMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C34A5792C3E33B300BDDB89 /* Private Aero CRM */ = {
+			isa = PBXGroup;
+			children = (
+				3C34A57A2C3E33B300BDDB89 /* Private_Aero_CRMApp.swift */,
+				3C34A57C2C3E33B300BDDB89 /* ContentView.swift */,
+				3C34A57E2C3E33B300BDDB89 /* Item.swift */,
+				3C34A5802C3E33B900BDDB89 /* Assets.xcassets */,
+				3C34A5822C3E33B900BDDB89 /* Private_Aero_CRM.entitlements */,
+				3C34A5832C3E33B900BDDB89 /* Preview Content */,
+			);
+			path = "Private Aero CRM";
+			sourceTree = "<group>";
+		};
+		3C34A5832C3E33B900BDDB89 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3C34A5842C3E33B900BDDB89 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3C34A58D2C3E33B900BDDB89 /* Private Aero CRMTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C34A58E2C3E33B900BDDB89 /* Private_Aero_CRMTests.swift */,
+			);
+			path = "Private Aero CRMTests";
+			sourceTree = "<group>";
+		};
+		3C34A5972C3E33B900BDDB89 /* Private Aero CRMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C34A5982C3E33B900BDDB89 /* Private_Aero_CRMUITests.swift */,
+				3C34A59A2C3E33B900BDDB89 /* Private_Aero_CRMUITestsLaunchTests.swift */,
+			);
+			path = "Private Aero CRMUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C34A5762C3E33B300BDDB89 /* Private Aero CRM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C34A59E2C3E33B900BDDB89 /* Build configuration list for PBXNativeTarget "Private Aero CRM" */;
+			buildPhases = (
+				3C34A5732C3E33B300BDDB89 /* Sources */,
+				3C34A5742C3E33B300BDDB89 /* Frameworks */,
+				3C34A5752C3E33B300BDDB89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Private Aero CRM";
+			productName = "Private Aero CRM";
+			productReference = 3C34A5772C3E33B300BDDB89 /* Private Aero CRM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C34A5892C3E33B900BDDB89 /* Private Aero CRMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C34A5A12C3E33B900BDDB89 /* Build configuration list for PBXNativeTarget "Private Aero CRMTests" */;
+			buildPhases = (
+				3C34A5862C3E33B900BDDB89 /* Sources */,
+				3C34A5872C3E33B900BDDB89 /* Frameworks */,
+				3C34A5882C3E33B900BDDB89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C34A58C2C3E33B900BDDB89 /* PBXTargetDependency */,
+			);
+			name = "Private Aero CRMTests";
+			productName = "Private Aero CRMTests";
+			productReference = 3C34A58A2C3E33B900BDDB89 /* Private Aero CRMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C34A5932C3E33B900BDDB89 /* Private Aero CRMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C34A5A42C3E33B900BDDB89 /* Build configuration list for PBXNativeTarget "Private Aero CRMUITests" */;
+			buildPhases = (
+				3C34A5902C3E33B900BDDB89 /* Sources */,
+				3C34A5912C3E33B900BDDB89 /* Frameworks */,
+				3C34A5922C3E33B900BDDB89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C34A5962C3E33B900BDDB89 /* PBXTargetDependency */,
+			);
+			name = "Private Aero CRMUITests";
+			productName = "Private Aero CRMUITests";
+			productReference = 3C34A5942C3E33B900BDDB89 /* Private Aero CRMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C34A56F2C3E33B300BDDB89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					3C34A5762C3E33B300BDDB89 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					3C34A5892C3E33B900BDDB89 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3C34A5762C3E33B300BDDB89;
+					};
+					3C34A5932C3E33B900BDDB89 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3C34A5762C3E33B300BDDB89;
+					};
+				};
+			};
+			buildConfigurationList = 3C34A5722C3E33B300BDDB89 /* Build configuration list for PBXProject "Private Aero CRM" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C34A56E2C3E33B300BDDB89;
+			productRefGroup = 3C34A5782C3E33B300BDDB89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C34A5762C3E33B300BDDB89 /* Private Aero CRM */,
+				3C34A5892C3E33B900BDDB89 /* Private Aero CRMTests */,
+				3C34A5932C3E33B900BDDB89 /* Private Aero CRMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C34A5752C3E33B300BDDB89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C34A5852C3E33B900BDDB89 /* Preview Assets.xcassets in Resources */,
+				3C34A5812C3E33B900BDDB89 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C34A5882C3E33B900BDDB89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C34A5922C3E33B900BDDB89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C34A5732C3E33B300BDDB89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C34A57D2C3E33B300BDDB89 /* ContentView.swift in Sources */,
+				3C34A57F2C3E33B300BDDB89 /* Item.swift in Sources */,
+				3C34A57B2C3E33B300BDDB89 /* Private_Aero_CRMApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C34A5862C3E33B900BDDB89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C34A58F2C3E33B900BDDB89 /* Private_Aero_CRMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C34A5902C3E33B900BDDB89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C34A59B2C3E33B900BDDB89 /* Private_Aero_CRMUITestsLaunchTests.swift in Sources */,
+				3C34A5992C3E33B900BDDB89 /* Private_Aero_CRMUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C34A58C2C3E33B900BDDB89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C34A5762C3E33B300BDDB89 /* Private Aero CRM */;
+			targetProxy = 3C34A58B2C3E33B900BDDB89 /* PBXContainerItemProxy */;
+		};
+		3C34A5962C3E33B900BDDB89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C34A5762C3E33B300BDDB89 /* Private Aero CRM */;
+			targetProxy = 3C34A5952C3E33B900BDDB89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3C34A59C2C3E33B900BDDB89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C34A59D2C3E33B900BDDB89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3C34A59F2C3E33B900BDDB89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Private Aero CRM/Private_Aero_CRM.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Private Aero CRM/Preview Content\"";
+				DEVELOPMENT_TEAM = 4522655LJ2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "privateaero.company.Private-Aero-CRM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C34A5A02C3E33B900BDDB89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Private Aero CRM/Private_Aero_CRM.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Private Aero CRM/Preview Content\"";
+				DEVELOPMENT_TEAM = 4522655LJ2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "privateaero.company.Private-Aero-CRM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C34A5A22C3E33B900BDDB89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4522655LJ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "privateaero.company.Private-Aero-CRMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Private Aero CRM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Private Aero CRM";
+			};
+			name = Debug;
+		};
+		3C34A5A32C3E33B900BDDB89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4522655LJ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "privateaero.company.Private-Aero-CRMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Private Aero CRM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Private Aero CRM";
+			};
+			name = Release;
+		};
+		3C34A5A52C3E33B900BDDB89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4522655LJ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "privateaero.company.Private-Aero-CRMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Private Aero CRM";
+			};
+			name = Debug;
+		};
+		3C34A5A62C3E33B900BDDB89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4522655LJ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "privateaero.company.Private-Aero-CRMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Private Aero CRM";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C34A5722C3E33B300BDDB89 /* Build configuration list for PBXProject "Private Aero CRM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C34A59C2C3E33B900BDDB89 /* Debug */,
+				3C34A59D2C3E33B900BDDB89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C34A59E2C3E33B900BDDB89 /* Build configuration list for PBXNativeTarget "Private Aero CRM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C34A59F2C3E33B900BDDB89 /* Debug */,
+				3C34A5A02C3E33B900BDDB89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C34A5A12C3E33B900BDDB89 /* Build configuration list for PBXNativeTarget "Private Aero CRMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C34A5A22C3E33B900BDDB89 /* Debug */,
+				3C34A5A32C3E33B900BDDB89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C34A5A42C3E33B900BDDB89 /* Build configuration list for PBXNativeTarget "Private Aero CRMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C34A5A52C3E33B900BDDB89 /* Debug */,
+				3C34A5A62C3E33B900BDDB89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C34A56F2C3E33B300BDDB89 /* Project object */;
+}
